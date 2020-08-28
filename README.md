@@ -9,3 +9,7 @@ A collection of curried DOM manipulation functions, created with the help of [Ra
 - All functions in this library are curried, so that you can easily reuse them
 
 - For API functions that return **undefined**, the **element being used as data** (after mutated by the API) will be returned
+
+## How to contribute?
+
+TODO

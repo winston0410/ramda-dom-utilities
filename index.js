@@ -1,12 +1,4 @@
-import {
-  setAttribute
-} from './lib/setAttribute.js'
-
-import {
-  addClass
-} from './lib/addClass.js'
-
-export {
-  setAttribute,
-  addClass
-}
+export * from './lib/setAttribute.js'
+export * from './lib/addClass.js'
+export * from './lib/removeAttribute.js'
+export * from './lib/removeClass.js'

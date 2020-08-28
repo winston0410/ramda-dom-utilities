@@ -32,6 +32,7 @@
     "basichtml": "^2.3.0",
     "chai": "^4.2.0",
     "chai-arrays": "^2.2.0",
+    "chai-dom": "^1.8.2",
     "chai-match": "^1.1.1",
     "chalk": "^4.1.0",
     "eslint": "^7.7.0",

@@ -22,6 +22,21 @@ export default [{
         ecma: 2019
       })
     ]
+  },
+  {
+    dir: 'dist',
+    format: 'cjs',
+    plugins: [
+      terser({
+        compress: {
+          drop_console: true
+        },
+        output: {
+          comments: false
+        },
+        ecma: 2019
+      })
+    ]
   }],
   plugins: [
     nodeResolve({}),

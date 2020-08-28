@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build:js": "npx rollup.js -c"
+    "build:js": "npx rollup -c;"
   },
   "repository": {
     "type": "git",

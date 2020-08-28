@@ -1,22 +1,31 @@
 const {
+  addClass,
+  containsClass,
   removeClass
 } = require('../index.js')
 const chai = require('chai')
 const expect = chai.expect
+chai.use(require('chai-dom'))
+const R = require('ramda')
 require('basichtml').init()
 
 describe('removeClass()', function () {
-  let element
+  let element, returnedValue
 
   beforeEach(function () {
     element = document.createElement('p')
+
+    returnedValue = R.pipe(
+      addClass('test-class'),
+      removeClass('test-class')
+    )(element)
   })
 
   it('should remove a class from element', function () {
-    console.log(removeClass)
+    expect(returnedValue).to.not.have.class('test-class')
   })
 
   it('should return the element itself', function () {
-
+    expect(returnedValue).to.eql(element)
   })
 })

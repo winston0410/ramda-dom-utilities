@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:js": "npx rollup.js -c"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,54 @@
+{
+  "name": "ramda-dom-utilities",
+  "version": "0.1.0",
+  "description": "A DOM utilities library built with Ramda",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winston0410/ramda-dom-utilities.git"
+  },
+  "keywords": [
+    "Ramda",
+    "functional",
+    "programming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winston0410/ramda-dom-utilities/issues"
+  },
+  "homepage": "https://github.com/winston0410/ramda-dom-utilities#readme",
+  "devDependencies": {
+    "@logux/eslint-config": "^40.0.3",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "chai": "^4.2.0",
+    "chai-arrays": "^2.2.0",
+    "chai-match": "^1.1.1",
+    "chalk": "^4.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-chai-expect": "^2.2.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-const-immutable": "^2.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-ramda": "^2.5.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "ramda": "^0.27.1",
+    "rollup": "^2.26.3",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-terser": "^7.0.0"
+  }
+}

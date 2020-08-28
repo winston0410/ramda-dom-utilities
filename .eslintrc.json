@@ -1,13 +1,22 @@
 {
   "env": {
     "browser": true,
+    "mocha": true,
     "es2020": true
   },
   "plugins": [
-
+    "mocha",
+    "chai-expect",
+    "chai-friendly",
+    "const-immutable",
+    "ramda"
   ],
   "extends": [
-    "standard"
+    "standard",
+    "plugin:mocha/recommended",
+    "plugin:chai-expect/recommended",
+    "plugin:chai-friendly/recommended",
+    "plugin:ramda/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -16,6 +25,13 @@
   "rules": {
     "no-unused-vars": 1,
     "no-unreachable": 0,
-    "prefer-object-spread": 1
+    "prefer-object-spread": 1,
+    "no-var": 2,
+    "no-param-reassign": 2,
+    "prefer-const": 2,
+    "const-immutable/no-mutation": 2,
+    "prefer-rest-params": 2,
+    "prefer-template": 2,
+    "prefer-spread": 2
   }
 }

@@ -1,3 +1,9 @@
-
 export * from './lib/addClass.js'
+export * from './lib/changeProp.js'
+export * from './lib/getElementById.js'
+export * from './lib/querySelector.js'
+export * from './lib/querySelectorAll.js'
 export * from './lib/removeClass.js'
+export * from './lib/containsClass.js'
+export * from './lib/removeAttribute.js'
+export * from './lib/setAttribute.js'

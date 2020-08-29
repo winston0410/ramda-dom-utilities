@@ -12,11 +12,12 @@ describe('querySelector()', function () {
 
   beforeEach(function () {
     element = document.createElement('p')
+    document.body.append(element)
 
-    returnedValue = querySelector('p')('document')
+    returnedValue = querySelector('p')(document)
   })
 
   it('should return the selected element', function () {
-    expect(returnedValue).to.eql(element)
+    expect(returnedValue).to.equal(element)
   })
 })

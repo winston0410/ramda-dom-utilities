@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build:js": "npx rollup -c;",
-    "test": "npx nyc npx mocha --recursive './test/**/*.js' --require esm"
+    "test": "npx mocha --recursive './test/**/*.js' --require esm"
   },
   "repository": {
     "type": "git",

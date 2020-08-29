@@ -20,6 +20,10 @@ describe('after()', function () {
     )(element)
   })
 
+  // it('should add the target to the DOM as the next sibling of the element', function () {
+  //
+  // })
+
   it('should return the element itself', function () {
     expect(returnedValue).to.eql(element)
   })

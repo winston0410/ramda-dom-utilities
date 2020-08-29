@@ -14,7 +14,7 @@ describe('addEventListener()', function () {
     element = document.createElement('p')
 
     returnedValue = R.pipe(
-      addEventListener('click')
+      addEventListener('click', (e) => e, {})
     )(element)
   })
 

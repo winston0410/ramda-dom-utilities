@@ -24,7 +24,7 @@ describe('before()', function () {
   })
 
   it('should add the target to the DOM as the previous sibling of the element', function () {
-
+    expect(element.previousElementSibling).to.eql(elementToInsertBefore)
   })
 
   it('should return the element itself', function () {

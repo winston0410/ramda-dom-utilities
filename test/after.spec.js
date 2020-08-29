@@ -5,12 +5,13 @@ const chai = require('chai')
 const expect = chai.expect
 chai.use(require('chai-dom'))
 const R = require('ramda')
-require('basichtml').init()
 
 describe('after()', function () {
   let element, returnedValue, elementToInsertBefore
 
   beforeEach(function () {
+    require('basichtml').init()
+
     element = document.createElement('p')
 
     elementToInsertBefore = document.createElement('span')

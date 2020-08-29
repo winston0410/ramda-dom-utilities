@@ -5,13 +5,16 @@ const chai = require('chai')
 const expect = chai.expect
 chai.use(require('chai-dom'))
 const R = require('ramda')
-require('basichtml').init()
 
 describe('before()', function () {
   let element, returnedValue, elementToInsertBefore
 
   beforeEach(function () {
+    require('basichtml').init()
+
     element = document.createElement('p')
+
+    document.body.append(element)
 
     elementToInsertBefore = document.createElement('span')
 
@@ -20,9 +23,9 @@ describe('before()', function () {
     )(element)
   })
 
-  // it('should add the target to the DOM as the previous sibling of the element', function () {
-  //
-  // })
+  it('should add the target to the DOM as the previous sibling of the element', function () {
+
+  })
 
   it('should return the element itself', function () {
     expect(returnedValue).to.eql(element)

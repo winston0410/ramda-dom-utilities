@@ -40,7 +40,6 @@
     "eslint-plugin-chai-expect": "^2.2.0",
     "eslint-plugin-chai-friendly": "^0.6.0",
     "eslint-plugin-const-immutable": "^2.1.0",
-    "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-node": "^11.1.0",

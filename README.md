@@ -53,7 +53,7 @@ element.setAttribute('id', 'test-id')
 
 //Curried version provided by this library
 
-setAttribute('id')(element)
+setAttribute('id')('test-id')(element)
 ```
 
 - [x] **addClass**

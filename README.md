@@ -12,6 +12,40 @@ A collection of curried DOM manipulation functions, created with the help of [Ra
 
 - For API functions that return **undefined**, the **element being used as data** (after mutated by the API) will be returned
 
+### List of curried functions
+
+We try to keep the name of the curried function identical with the Web API, and have the same parameter orders, except you would put the element that uses the API functions to the very end, so as to follow Ramda's "data-last" pattern.
+
+```javascript
+//Web API
+
+element.setAttribute('id', 'test-id')
+
+//Curried version provided by this library
+
+setAttribute('id')(element)
+```
+
+- [x] **addClass**
+
+- [x] **containsClass**
+
+- [x] **removeClass**
+
+- [x] **setAttribute**
+
+- [x] **removeAttribute**
+
+- [x] **before**
+
+- [x] **after**
+
+- [x] **append**
+
+- [x] **prepend**
+
+- [x] **remove**
+
 ## How to contribute?
 
 TODO

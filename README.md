@@ -78,4 +78,6 @@ R.pipe(
 
 ## How to contribute?
 
-TODO
+- Use [gitmoji](https://github.com/carloscuesta/gitmoji) to write commit message
+
+- TODO

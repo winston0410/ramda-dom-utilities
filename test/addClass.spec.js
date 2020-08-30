@@ -10,7 +10,7 @@ describe('addClass()', function () {
   let element, returnedValue
 
   beforeEach(function () {
-        require('basichtml').init()
+    require('basichtml').init()
     element = document.createElement('p')
 
     returnedValue = R.pipe(

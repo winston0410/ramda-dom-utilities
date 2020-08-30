@@ -54,6 +54,8 @@ setAttribute('id')(element)
 
 - [x] **removeAttribute**
 
+- [x] **hasAttribute**
+
 - [x] **before**
 
 - [x] **after**
@@ -63,6 +65,8 @@ setAttribute('id')(element)
 - [x] **prepend**
 
 - [x] **remove**
+
+- [x] **replaceWith**
 
 - [x] **getElementById**
 
@@ -75,6 +79,8 @@ setAttribute('id')(element)
 - [x] **addEventListener**
 
 - [x] **removeEventListener**
+
+- [x] **matches**
 
 Other than these curried Web API version, we provide the following functions to help you put DOM manipulation in a pipe
 

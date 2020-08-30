@@ -9,14 +9,16 @@
     "chai-expect",
     "chai-friendly",
     "const-immutable",
-    "ramda"
+    "ramda",
+    "fp"
   ],
   "extends": [
     "standard",
     "plugin:mocha/recommended",
     "plugin:chai-expect/recommended",
     "plugin:chai-friendly/recommended",
-    "plugin:ramda/recommended"
+    "plugin:ramda/recommended",
+    "plugin:fp/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -32,6 +34,7 @@
     "const-immutable/no-mutation": 2,
     "prefer-rest-params": 2,
     "prefer-template": 2,
-    "prefer-spread": 2
+    "prefer-spread": 2,
+    "fp/no-let": 0
   }
 }

@@ -22,6 +22,18 @@ const element = R.pipe(
 )(document)
 ```
 
+## Installation
+
+```bash
+npm i ramda-dom-utilities
+```
+
+Then in the script where you want to use this library:
+
+```javascript
+import * as R from 'ramda-dom-utilities'
+```
+
 ## Features
 
 - All functions in this library return the mutated element, so that you can easily use them in a pipe

@@ -9,7 +9,7 @@ const commonjs = require('@rollup/plugin-commonjs')
 export default [{
   input: './index.js',
   output: [{
-    dir: 'dist',
+    file: './dist/index.esm.js',
     format: 'esm',
     plugins: [
       terser({
@@ -24,7 +24,7 @@ export default [{
     ]
   },
   {
-    dir: 'dist',
+    file: './dist/index.cjs.js',
     format: 'cjs',
     plugins: [
       terser({

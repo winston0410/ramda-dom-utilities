@@ -8,7 +8,7 @@ chai.use(require('chai-dom'))
 const R = require('ramda')
 
 describe('replaceWith()', function () {
-  let element, returnedValue, returnedValue2, lementToReplace
+  let element, returnedValue, returnedValue2
 
   beforeEach(function () {
     require('basichtml').init()
@@ -17,6 +17,7 @@ describe('replaceWith()', function () {
 
     // returnedValue = returnValue(0, append)(element)(document.body)
     // returnedValue2 = returnValue(0, append)(element, document.body)
+    returnedValue2 = returnValue(0, append)
   })
 
   it('should return parameter of a function based on parameter number', function () {

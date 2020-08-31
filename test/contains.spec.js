@@ -7,14 +7,14 @@ const expect = chai.expect
 chai.use(require('chai-dom'))
 const R = require('ramda')
 
+const jsdom = require('jsdom')
+const { JSDOM } = jsdom
+const { document } = (new JSDOM('...')).window
+
 describe('contains()', function () {
   let element, elementToAppend, elementToNotAppend
 
   beforeEach(function (done) {
-    const jsdom = require('jsdom')
-    const { JSDOM } = jsdom
-    const { document } = (new JSDOM('...')).window
-
     element = document.createElement('p')
 
     document.body.append(element)

@@ -13,25 +13,43 @@ element.id = 'new-id'
 element.classList.add('foo')
 
 //Write this: Compact and reusable
+import * as Rdom from 'ramda-dom-utilities' //Or import as R, or any name you like
 
 const element = R.pipe(
-  getElementById('test-id'),
-  setProp('textContent')('Hello world'),
-  setProp('id')('new-id'),
-  addClass('foo')
+  Rdom.getElementById('test-id'),
+  Rdom.setProp('textContent')('Hello world'),
+  Rdom.setProp('id')('new-id'),
+  Rdom.addClass('foo')
 )(document)
 ```
 
 ## Installation
 
+With npm:
+
 ```bash
 npm i ramda-dom-utilities
+```
+
+Or via CDN:
+
+```html
+<script defer src="https://unpkg.com/browse/ramda-dom-utilities/dist/index.esm.js"></script>
+
+<script defer src="https://unpkg.com/browse/ramda-dom-utilities/dist/index.cjs.js"></script>
+```
+
+Or directly include the script in you site:
+
+```html
+<script defer src="/path/to/your/dir/index.esm.js"></script>
+
 ```
 
 Then in the script where you want to use this library:
 
 ```javascript
-import * as R from 'ramda-dom-utilities'
+import * as Rdom from 'ramda-dom-utilities'
 ```
 
 ## Features
@@ -84,6 +102,12 @@ setAttribute('id')('test-id')(element)
 
 - [x] **getElementsByClassName**
 
+- [x] **getElementsByName**
+
+- [x] **getElementsByTagNameNS**
+
+- [x] **getElementsByTagName**
+
 - [x] **querySelector**
 
 - [x] **querySelectorAll**
@@ -93,6 +117,8 @@ setAttribute('id')('test-id')(element)
 - [x] **removeEventListener**
 
 - [x] **matches**
+
+- [x] **contains**
 
 Other than these curried Web API version, we provide the following functions to help you put DOM manipulation in a pipe
 

@@ -9,8 +9,7 @@
     "chai-expect",
     "chai-friendly",
     "const-immutable",
-    "ramda",
-    "fp"
+    "ramda"
   ],
   "extends": [
     "standard",

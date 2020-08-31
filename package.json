@@ -1,11 +1,16 @@
 {
   "name": "ramda-dom-utilities",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A DOM utilities library built with Ramda",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "files": [
+    "lib/",
+    "index.js",
+    "dist/"
+  ],
   "scripts": {
     "build:js": "npx rollup -c;",
     "test": "npx mocha --recursive './test/**/*.js' --require esm"

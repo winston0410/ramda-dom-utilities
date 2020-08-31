@@ -29,8 +29,10 @@ describe('contains()', function () {
     done()
   })
 
-  it('should return whether the element contains a node', function () {
+  it('should return whether the element contains a node', function (done) {
     expect(contains(elementToAppend)(element)).to.be.true
     expect(contains(elementToNotAppend)(element)).to.be.false
+
+    done()
   })
 })

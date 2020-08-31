@@ -39,6 +39,13 @@ Or via CDN:
 <script defer src="https://unpkg.com/browse/ramda-dom-utilities/dist/index.cjs.js"></script>
 ```
 
+Or directly include the script in you site:
+
+```html
+<script defer src="/path/to/your/dir/index.esm.js"></script>
+
+```
+
 Then in the script where you want to use this library:
 
 ```javascript

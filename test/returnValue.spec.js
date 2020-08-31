@@ -15,7 +15,7 @@ describe('replaceWith()', function () {
 
     element = document.createElement('p')
 
-    returnedValue = append(element)(document.body)
+    returnedValue = returnValue(0, append)(element)(document.body)
   })
 
   it('should return parameter of a function based on parameter number', function () {

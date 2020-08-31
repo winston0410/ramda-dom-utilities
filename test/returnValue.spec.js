@@ -41,4 +41,9 @@ describe('returnValue()', function () {
     expect(returnValue(cFn, [])(a)(b, c, d)(e, f, g)).to.have.deep.ordered.members(cFn(a)(b, c, d)(e, f, g))
     expect(returnValue(cFn)(a)(b, c, d, e)(f, g)).to.have.deep.ordered.members(cFn(a)(b, c, d, e)(f, g))
   })
+
+  it('should return very first parameter if it is not a function', function () {
+    expect(returnValue(a)).to.eql(a)
+    expect(returnValue(a, [0, 2])).to.eql(a)
+  })
 })

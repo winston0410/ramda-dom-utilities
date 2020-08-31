@@ -102,6 +102,12 @@ setAttribute('id')('test-id')(element)
 
 - [x] **getElementsByClassName**
 
+- [x] **getElementsByName**
+
+- [x] **getElementsByTagNameNS**
+
+- [x] **getElementsByTagName**
+
 - [x] **querySelector**
 
 - [x] **querySelectorAll**

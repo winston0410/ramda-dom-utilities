@@ -24,8 +24,18 @@ const element = R.pipe(
 
 ## Installation
 
+With npm:
+
 ```bash
 npm i ramda-dom-utilities
+```
+
+Or via CDN:
+
+```html
+<script defer src="https://unpkg.com/browse/ramda-dom-utilities/dist/index.esm.js"></script>
+
+<script defer src="https://unpkg.com/browse/ramda-dom-utilities/dist/index.cjs.js"></script>
 ```
 
 Then in the script where you want to use this library:

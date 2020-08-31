@@ -6,6 +6,11 @@
   "directories": {
     "lib": "lib"
   },
+  "files": [
+    "lib/",
+    "index.js",
+    "dist/"
+  ],
   "scripts": {
     "build:js": "npx rollup -c;",
     "test": "npx mocha --recursive './test/**/*.js' --require esm"

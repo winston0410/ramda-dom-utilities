@@ -17,10 +17,20 @@ describe('replaceWith()', function () {
 
     // returnedValue = returnValue(0, append)(element)(document.body)
     // returnedValue2 = returnValue(0, append)(element, document.body)
-    returnedValue2 = returnValue(0, append)
+    // returnedValue2 = returnValue(0, append)
   })
 
   it('should return parameter of a function based on parameter number', function () {
+    const test = (a1) => (a2) => a1
+    const foo = 'bar'
+    const hello = 'world'
+
+    console.log(returnValue(1)(test)(foo)(hello))
+
+    // expect(
+    //
+    // ).to.equal(hello)
+
     // expect(returnedValue).to.equal(element)
     // expect(returnedValue2).to.equal(element)
   })

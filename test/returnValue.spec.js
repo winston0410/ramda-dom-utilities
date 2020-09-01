@@ -7,7 +7,7 @@ const expect = chai.expect
 chai.use(require('chai-dom'))
 const R = require('ramda')
 
-describe('replaceWith()', function () {
+describe('returnValue()', function () {
   let element, returnedValue, returnedValue2
 
   beforeEach(function () {

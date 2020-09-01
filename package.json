@@ -1,6 +1,6 @@
 {
   "name": "ramda-dom-utilities",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A DOM utilities library built with Ramda",
   "main": "index.js",
   "directories": {

@@ -144,6 +144,16 @@ R.pipe(
 )(element)
 ```
 
+**R.readProp**
+
+```javascript
+const lastChild = element.lastElementChild
+
+//Can be directly translated to:
+
+const lastChild = R.readProp('lastElementChild')(element)
+```
+
 ## How to contribute?
 
 - Use [gitmoji](https://github.com/carloscuesta/gitmoji) to write commit message

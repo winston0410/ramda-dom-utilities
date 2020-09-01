@@ -25,7 +25,7 @@ describe('returnValue()', function () {
     const foo = 'bar'
     const hello = 'world'
 
-    console.log(returnValue(1)(test)(foo)(hello))
+    // console.log(returnValue(1)(test)(foo)(hello))
 
     // expect(
     //

@@ -61,6 +61,7 @@
     "rollup-plugin-terser": "^7.0.0"
   },
   "dependencies": {
+    "curry-method": "^0.1.0",
     "ramda": "^0.27.1"
   }
 }
